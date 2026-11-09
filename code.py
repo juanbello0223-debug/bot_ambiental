@@ -106,6 +106,11 @@ chips de papa a la orden para el netflix!!!!
 """
     await ctx.send(cocinero)
 
+@bot.command()
+async def chiste(ctx):
+    await ctx.send("¿Sabes cuál es el colmo de una planta?, que la dejen plan-tada")
+
+
 
 
 bot.run("TOKEN AQUI")
